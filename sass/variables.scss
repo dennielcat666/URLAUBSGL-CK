@@ -1,0 +1,32 @@
+$font-montserrat:           "Montserrat", sans-serif;
+$font-roboto:               "Roboto", sans-serif;
+$color-ff4e50:              #ff4e50;
+$color-333333:              #333333;
+$color-666666:              #666666;
+
+// SASS SETTINGS
+
+$grid-columns:      12;
+$grid-gutter-width: 20px;   //паддинг
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 320px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 940px,
+  // Extra large screen / wide desktop
+  xl: 940px
+);
+
+$container-max-widths: (
+  sm: 340px,
+  md: 788px,
+  lg: 960px,
+  xl: 960px
+);
+
+// SASS SETTINGS

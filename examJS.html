@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/src/stylesExamJS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="./js/src/scriptExamJS.js"></script>
+    <title>examJS</title>
+</head>
+<body>
+    <div class="banner">    <!-- банер задний план -->
+        <div class="container">   <!-- контейнер? -->
+            <div class="banner_top_box row">   <!-- общий блок для верхнего поля -->
+                <div class="comp_box col-lg-12">
+                    <div class="comp_name">URLAUBSGLÜCK</div>   <!-- имя сайта -->
+                    <div class="comp_log">   <!-- блок для регистрации и входа на сайт -->
+                        <a class="comp_log_link" href="#">Log in</a>
+                        <a class="comp_log_link" href="#">Sing up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo_box">  <!-- общий блок у банера со слоганом -->
+                <div class="tagline">Share your <br> holiday dreams</div>
+                <div class="tagline_text">And find the perfect partner to fullfill it</div>
+                <a class="tagline_link" href="#">Find your holiday partner</a>
+            </div>
+        </div>
+    </div>
+    <div class="content_box">   <!-- сам белый блок -->
+        <div class="container">
+            <div class="common">    <!-- общий блок до футера -->
+                <div class="block_for_slider">  <!-- блок слайдера общий -->
+                    <div class="title_for_slider">How Urlaubsglück works?</div>
+                    <div class="common_slide row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card_slide">
+                                <div id="js-carousel-1" class="owl-carousel my-carousel">
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_1.png)"></div>
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_2.png)"></div>
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_3.png)"></div>       
+                                </div>
+                                 <div class="slide_content">
+                                    <div class="slide_step">step 1</div>
+                                    <div class="slide_name">Sed leo enim, <br> condimentum</div>
+                                    <div class="slide_text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card_slide">
+                                <div id="js-carousel-2" class="owl-carousel my-carousel">
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_2.png)"></div>
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_3.png)"></div>
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_1.png)"></div>       
+                                </div>
+                                <div class="slide_content">
+                                    <div class="slide_step">step 2</div>
+                                    <div class="slide_name">Morbi velit risus</div>
+                                    <div class="slide_text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card_slide">
+                                <div id="js-carousel-3" class="owl-carousel my-carousel">
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_3.png)"></div>
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_1.png)"></div>
+                                    <div class="carousel-item slide_img" style="background-image: url(./img/img_for_slide_2.png)"></div>       
+                                </div>
+                                <div class="slide_content">
+                                    <div class="slide_step">step 3</div>
+                                    <div class="slide_name">Sed leo enim, <br> condimentum</div>
+                                    <div class="slide_text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="find_block">   <!-- блок с партнерами на выходные 1 -->
+                    <div class="find_title">Meet a partner for your best holiday</div> <!-- название блока -->
+                    <div class="common_for_find row">
+                        <div class="wrap_partner col-lg-3 col-md-4 offset-lg-0 offset-md-2">
+                            <div class="find_card">
+                                <div class="partner_card">
+                                    <a class="partner_link" href="#"><img class="partner_photo" src="./img/partner_1.png" alt=""><div class="sprite tv"></div></a>
+                                </div>
+                                <div class="partner_name">Bradley Hunter</div>
+                                <div class="partner_promo">Based in Chicago. I love playing tennis and loud music.</div>
+                            </div>
+                        </div>
+                        <div class="wrap_partner col-lg-3 col-md-4">
+                            <div class="find_card">
+                                <div class="partner_card">
+                                    <a class="partner_link" href="#"><img class="partner_photo" src="./img/partner_2.png" alt=""><div class="sprite coffee"></div></a>
+                                </div>
+                                <div class="partner_name">Heather Walker</div>
+                                <div class="partner_promo">I'm a happy person that loves cats and climbing on mountains.</div>
+                            </div>
+                        </div>
+                        <div class="wrap_partner col-lg-3 col-md-4 offset-lg-0 offset-md-2">
+                            <div class="find_card">
+                                <div class="partner_card">
+                                    <a class="partner_link" href="#"><img class="partner_photo" src="./img/partner_3.png" alt=""><div class="sprite colb"></div></a>
+                                </div>
+                                <div class="partner_name">Lucas Marsha</div>
+                                <div class="partner_promo">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap_partner col-lg-3 col-md-4">
+                            <div class="find_card">
+                                <div class="partner_card">
+                                    <a class="partner_link" href="#"><img class="partner_photo" src="./img/partner_4.png" alt=""><div class="sprite telegram"></div></a>
+                                </div>
+                                <div class="partner_name">Bradley Hunter</div>
+                                <div class="partner_promo">Based in Chicago. I love playing tennis and loud music.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="find_link_box"><a class="find_link" href="#">See other partners</a></div>
+                </div>
+                <div class="mosaic">   <!-- мозайка 1 -->
+                    <div class="mosaic_title">Discover holiday activity ideas</div>
+                    <div class="mosaic_common_box"> <!-- общий блок для всей мозайки -->
+                        <div class="mosaic_line row"> <!-- первая линия мозайки -->
+                            <div class="col-lg-4 col-md-4">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_short mosaic_img" data-section="sport and activity" style="background-image: url(./img/mosaic_1_1.png)"></div>
+                                    <div class="mosaic_text">Sport and Activity</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_short mosaic_img" data-section="wellness" style="background-image: url(./img/mosaic_1_2.png)"></div>
+                                    <div class="mosaic_text">Wellnes and Health</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_short mosaic_img" data-section="extreme sports" style="background-image: url(./img/mosaic_1_3.png)"></div>
+                                    <div class="mosaic_text">Extreme Sports <br> and Expeditions</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mosaic_line row"> <!-- вторая линия мозайки -->
+                            <div class="col-lg-4 col-md-4">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_short mosaic_img" data-section="games" style="background-image: url(./img/mosaic_2_1.png)"></div>
+                                    <div class="mosaic_text">Games</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_long mosaic_img" data-section="culture" style="background-image: url(./img/mosaic_2_2.png)"></div>
+                                    <div class="mosaic_text">Culture and Education</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mosaic_line row"> <!-- третья линия мозайки -->
+                            <div class="col-lg-8 col-md-8">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_long mosaic_img" data-section="relaxation" style="background-image: url(./img/mosaic_3_1.png)"></div>
+                                    <div class="mosaic_text">Relaxation</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="mosaic_card">
+                                    <div class="mosaic_img_short mosaic_img" data-section="travelling" style="background-image: url(./img/mosaic_3_2.png)"></div>
+                                    <div class="mosaic_text">Travelling</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search">  <!-- общий блок для поиска 1 -->
+                    <div class="search_title">Discover holiday activity ideas</div>
+                    <div class="search_promo">Hi! What are your holiday interests?</div>
+                    <div class="search_box">
+                        <input class="search_line" type="text" placeholder="Enter your interests">
+                        <button class="search_btn">Search partners</button>
+                    </div>
+                    <div class="hidden search_result row justify-content-center">
+                        <div class="col-lg-8 col-md-8">
+                            <img class="find-img" src="" alt=""> 
+                        </div>
+                    </div>
+                    <!-- <div class="not-find-img-place row justify-content-center">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="not-find-card">
+                                <div class="not-finde-img"><img style="width: 100%;" src="./img/404.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_block"> <!-- футтер -->
+        <div class="container">
+            <div class="footer row">    <!-- 1 -->
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="footer_container">
+                        <div class="footer_colum">
+                            <div class="footer_logo">URLAUBSGLÜCK</div>
+                        </div>
+                        <div class="footer_colum">
+                            <div class="footer_colum_title">Company</div>
+                            <div class="footer_link_box"><a class="footer_link" href="#">About</a></div>
+                            <div class="footer_link_box"><a class="footer_link" href="#">Contacts</a></div>
+                            <div class="footer_link_box"><a class="footer_link" href="#">Press</a></div>
+                            <div class="footer_link_box"><a class="footer_link" href="#">Blog</a></div>
+                        </div>
+                        <div class="footer_colum">
+                            <div class="footer_colum_title">Partners</div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer_des">
+                        <div><img src="./img/designed.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
