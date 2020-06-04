@@ -14,9 +14,6 @@ gulp.task('dev',  function dev (cb) {
 
     gulp.src('./src/img/**/*')
         .pipe(gulp.dest('./dist/img/'));
-
-    // gulp.src('./src/sass/**/*.css')
-    //     .pipe(gulp.dest('./dist/css/'));
     
     gulp.src('./src/js/*.js')
         .pipe(babel({
