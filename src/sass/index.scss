@@ -1,7 +1,9 @@
 @import './variables.scss';
 @import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
-@import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
-@import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css';
+@import './owl.carousel.min.css';
+@import './owl.theme.default.min.css';
+/* @import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css'; */
 
 
 * {

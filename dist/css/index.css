@@ -1,5 +1,5 @@
-@import url(../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css);
-@import url(../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css);
+@import url(./owl.carousel.min.css);
+@import url(./owl.theme.default.min.css);
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2854,6 +2854,8 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
+/* @import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css'; */
 * {
   margin: 0;
   padding: 0;
