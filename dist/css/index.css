@@ -2852,8 +2852,6 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
-/* @import './owl.carousel.min.css';
-@import './owl.theme.default.min.css'; */
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -3080,7 +3078,8 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  outline: none; }
 
 a {
   display: inline-block;
