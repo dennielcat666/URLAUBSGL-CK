@@ -1,5 +1,5 @@
 @import './variables.scss';
-@import '../node_modules/bootstrap-4-grid/scss/grid.scss';
+@import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
 @import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
 @import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css';
 
@@ -16,7 +16,7 @@ a {
 }
 
 .banner {
-    background-image: url(../../img/banner.png);
+    background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 700px;
@@ -138,14 +138,14 @@ a {
 }
 
 .owl-prev::before {
-    content: url(../../img/prev.png);
+    content: url(../img/prev.png);
     position: absolute;
     top: 152px;
     left: 21px;
 }
 
 .owl-next::before {
-    content: url(../../img/next.png);
+    content: url(../img/next.png);
     position: absolute;
     top: 152px;
     left: 249px;
@@ -273,7 +273,7 @@ a {
     position: absolute;
     bottom: 0px;
     right: -6px;
-    background-image: url(../../img/sprite.png);
+    background-image: url(../img/sprite.png);
     background-repeat: no-repeat;
     width: 41px;
     height: 40px;
