@@ -7,7 +7,7 @@ const babel = require('gulp-babel');
 
 sass.compiler = require('node-sass');
 
-gulp.task('dist',  function dev (cb) {
+gulp.task('dist', function dist (cb) {
 
     gulp.src('./src/*.html')
         .pipe(gulp.dest('./dist/'));
