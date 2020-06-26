@@ -32,7 +32,7 @@ gulp.task('dev',  function dev (cb) {
  
 
 
-    gulp.task('watch', function (cb) {
-        gulp.task('dev');
-        gulp.watch('./src/**/*', gulp.task('dev'));
-    }); 
+gulp.task('watch', function (cb) {
+    gulp.task('dev');
+    gulp.watch('./src/**/*', gulp.task('dev'));
+}); 

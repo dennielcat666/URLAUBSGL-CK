@@ -3107,10 +3107,6 @@ a {
   font-weight: 700;
   font-size: 20px; }
 
-.comp_log {
-  /* display: flex;
-    justify-content: flex-end; */ }
-
 .comp_log_link {
   padding: 9px 15px;
   font-size: 14px;
@@ -3191,10 +3187,6 @@ a {
   top: 152px;
   left: 249px; }
 
-/* .carousel-nav .owl-nav {
-    text-align: center;
-    margin-top: 10px;
-  } */
 .owl-nav {
   position: absolute;
   top: 0px;
@@ -3215,9 +3207,6 @@ a {
   display: none; }
 
 .slide_img {
-  /* position: absolute;
-    top: 0;
-    bottom: 0; */
   width: 100%;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -3277,7 +3266,6 @@ a {
   margin-top: 33px; }
 
 .partner_card {
-  /* position: relative; */
   text-align: center; }
 
 .partner_link {
@@ -3359,16 +3347,14 @@ a {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-size: cover;
-  /* background-position: 50%; */ }
+  background-size: cover; }
 
 .mosaic_img_long {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
-  background-size: cover;
-  /* background-position: 50%; */ }
+  background-size: cover; }
 
 .mosaic_img::before {
   content: '';
@@ -3439,21 +3425,6 @@ a {
   margin-top: 50px;
   width: 100%; }
 
-/* .find-card {
-    margin-top: 50px;
-    position: relative;
-    min-height: 310px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-/* .finde-img-box {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background-size: cover;
-} */
 .not-find-img-place {
   display: none; }
 
@@ -3462,7 +3433,6 @@ a {
   position: relative;
   min-height: 615px;
   display: flex;
-  /* align-items: center; */
   justify-content: center; }
 
 .not-finde-img {

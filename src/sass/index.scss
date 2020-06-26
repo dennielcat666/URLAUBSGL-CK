@@ -42,11 +42,6 @@ a {
     font-size: 20px;
 }
 
-.comp_log {
-    /* display: flex;
-    justify-content: flex-end; */
-}
-
 .comp_log_link {
     
     padding: 9px 15px;
@@ -92,16 +87,8 @@ a {
     margin-bottom: 0px;
 }
 
-.content_box {
-
-}
-
 .common {
     padding: 92px 0;
-}
-
-.block_for_slider {
-
 }
 
 .title_for_slider {
@@ -152,39 +139,31 @@ a {
     left: 249px;
 }
 
-/* .carousel-nav .owl-nav {
-    text-align: center;
-    margin-top: 10px;
-  } */
-
-  .owl-nav {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-  }
+.owl-nav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
   
-  .carousel-nav .owl-nav button.owl-next,
-  .carousel-nav .owl-nav button.owl-prev {
+.carousel-nav .owl-nav button.owl-next,
+.carousel-nav .owl-nav button.owl-prev {
     color: blue;
-  }
+}
   
-  .carousel-nav .owl-nav button.disabled {
+.carousel-nav .owl-nav button.disabled {
     color: black;
     opacity: .5;
-  }
+}
   
-  .owl-next {
+.owl-next {
     margin-left: 20px;
-  }
+}
   
-  .owl-dots {
-      display: none;
-  }
+.owl-dots {
+    display: none;
+}
 
 .slide_img {
-    /* position: absolute;
-    top: 0;
-    bottom: 0; */
     width: 100%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -252,22 +231,13 @@ a {
     margin-top: 33px;
 }
 
-.find_card {
-
-}
-
 .partner_card {
-    /* position: relative; */
     text-align: center;
 }
 
 .partner_link {
     position: relative;
     display: inline-block;
-}
-
-.partner_photo {
-
 }
 
 .sprite {
@@ -342,10 +312,6 @@ a {
 
 }
 
-.mosaic_common_box {
-
-}
-
 .mosaic_line {
     margin-top: 20px;
 }
@@ -364,7 +330,6 @@ a {
     bottom: 0;
     width: 100%;
     background-size: cover;
-    /* background-position: 50%; */
 }
 
 .mosaic_img_long {
@@ -373,7 +338,6 @@ a {
     bottom: 0;
     width: 100%;
     background-size: cover;
-    /* background-position: 50%; */
 }
 
 .mosaic_img::before {
@@ -455,23 +419,6 @@ a {
     width: 100%;
 }
 
-/* .find-card {
-    margin-top: 50px;
-    position: relative;
-    min-height: 310px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* .finde-img-box {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background-size: cover;
-} */
-
 .not-find-img-place {
     display: none;
 }
@@ -481,7 +428,6 @@ a {
     position: relative;
     min-height: 615px;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -497,10 +443,6 @@ a {
     border-top: 5px solid $color-ff4e50;
     padding-top: 36px;
     padding-bottom: 40px;
-}
-
-.footer {
-
 }
 
 .footer_container {
@@ -735,14 +677,3 @@ a {
         justify-content: flex-end;
     }
 }
-
-
-// @media (min-width: 768px) {
-//     .comp_box {
-//         margin: 0px 39px;
-//     }
-    
-//     .find_card:nth-child(n+3) {
-//         margin-top: 50px;
-//     }
-// }
