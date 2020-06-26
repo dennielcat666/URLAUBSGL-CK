@@ -1,5 +1,10 @@
 # URLAUBSGL-CK
 
+### GitHub Pages
+```bash
+https://dennielcat666.github.io/URLAUBSGL-CK/dist/index.html
+```
+
 ## Блок "How Urlaubsglück works?"
 
 Работает слайдер. Как при перелистовании, так и при нажатии на стрелочки.
