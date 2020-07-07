@@ -33,6 +33,6 @@ gulp.task('dist', function dist (cb) {
 
 
 gulp.task('watch', function (cb) {
-    gulp.task('dev');
-    gulp.watch('./src/**/*', gulp.task('dev'));
+    gulp.task('dist');
+    gulp.watch('./src/**/*', gulp.task('dist'));
 }); 
