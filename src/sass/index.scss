@@ -484,7 +484,7 @@ a {
     justify-content: flex-end;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     .banner {
         min-height: 520px;
@@ -536,8 +536,15 @@ a {
     }
 
     .card_slide {
-        min-height: 240px;
         margin-top: 10px;
+    }
+
+    .owl-prev::before {
+        display: none;
+    }
+    
+    .owl-next::before {
+        display: none;
     }
 
     .find_block {
@@ -633,6 +640,15 @@ a {
 }
 
 @include media-breakpoint-up(md) {
+
+    .owl-prev::before {
+        display: none;
+    }
+    
+    .owl-next::before {
+        display: none;
+    }
+
     .comp_box {
         margin: 0px 39px;
     }

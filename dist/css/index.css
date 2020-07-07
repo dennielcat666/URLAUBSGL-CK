@@ -38,9 +38,9 @@ html {
   padding-left: 10px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 320px) {
+  @media (min-width: 420px) {
     .container {
-      max-width: 340px; } }
+      max-width: 420px; } }
   @media (min-width: 768px) {
     .container {
       max-width: 788px; } }
@@ -58,9 +58,9 @@ html {
   margin-right: auto;
   margin-left: auto; }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
   .container, .container-sm {
-    max-width: 340px; } }
+    max-width: 420px; } }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
@@ -259,7 +259,7 @@ html {
 .offset-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -758,7 +758,7 @@ html {
 .d-inline-flex {
   display: inline-flex !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
   .d-sm-none {
     display: none !important; }
   .d-sm-inline {
@@ -960,7 +960,7 @@ html {
 .align-self-stretch {
   align-self: stretch !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
   .flex-sm-row {
     flex-direction: row !important; }
   .flex-sm-column {
@@ -1582,7 +1582,7 @@ html {
 .mx-auto {
   margin-left: auto !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
   .m-sm-0 {
     margin: 0 !important; }
   .mt-sm-0,
@@ -2624,7 +2624,7 @@ html {
 .text-center {
   text-align: center !important; }
 
-@media (min-width: 320px) {
+@media (min-width: 420px) {
   .text-sm-left {
     text-align: left !important; }
   .text-sm-right {
@@ -3479,7 +3479,7 @@ a {
   display: flex;
   justify-content: flex-end; }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .banner {
     min-height: 520px;
     padding-bottom: 139px; }
@@ -3508,8 +3508,11 @@ a {
   .common_slide {
     margin-top: 7px; }
   .card_slide {
-    min-height: 240px;
     margin-top: 10px; }
+  .owl-prev::before {
+    display: none; }
+  .owl-next::before {
+    display: none; }
   .find_block {
     margin-top: 33px; }
   .common_for_find {
@@ -3561,6 +3564,10 @@ a {
     margin-top: 17px; } }
 
 @media (min-width: 768px) {
+  .owl-prev::before {
+    display: none; }
+  .owl-next::before {
+    display: none; }
   .comp_box {
     margin: 0px 39px; }
   .wrap_partner:nth-child(n+3) {
