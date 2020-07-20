@@ -641,13 +641,13 @@ a {
 
 @include media-breakpoint-up(md) {
 
-    .owl-prev::before {
-        display: none;
-    }
+    // .owl-prev::before {
+    //     display: none;
+    // }
     
-    .owl-next::before {
-        display: none;
-    }
+    // .owl-next::before {
+    //     display: none;
+    // }
 
     .comp_box {
         margin: 0px 39px;

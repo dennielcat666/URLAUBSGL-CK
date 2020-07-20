@@ -3564,10 +3564,6 @@ a {
     margin-top: 17px; } }
 
 @media (min-width: 768px) {
-  .owl-prev::before {
-    display: none; }
-  .owl-next::before {
-    display: none; }
   .comp_box {
     margin: 0px 39px; }
   .wrap_partner:nth-child(n+3) {
